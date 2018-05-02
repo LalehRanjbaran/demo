@@ -19,9 +19,9 @@ public class Bar {
 
 	public void draw(Graphics g, int y, double scale) {
 		final int GAP = 0;
-		g.fillRect(0, y, (int) (value * scale), HEIGHT);
-		g.setColor(Color.WHITE);
-		g.drawString(label, GAP, y + HEIGHT - GAP);
-		g.setColor(Color.BLACK);
+		g.drawRect(0, y, 800, HEIGHT);
+		g.drawString(label, 200, y-7 + HEIGHT );
+
+	
 	}
 }
