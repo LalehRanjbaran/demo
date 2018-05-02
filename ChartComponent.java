@@ -47,6 +47,7 @@ public class ChartComponent extends JComponent {
 		int y =0;
 		double scale = getWidth() / maxValue;
 		for (Bar b : bars) {
+			
 			b.draw(g, y, scale);
 			y = y + Bar.HEIGHT ;
 		}
