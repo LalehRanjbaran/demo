@@ -48,7 +48,7 @@ public class company {
 //--------------methods-------------
 	@Override
 	public String toString() {
-		return "(" + companyName + " , "+ suggestedCost + ") ";
+		return "Company '" + companyName + "' : "+ suggestedCost ;
 	}
 		
 
